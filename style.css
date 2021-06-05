@@ -1,0 +1,151 @@
+body{
+    background-color: rgba(0, 0, 0, 0.726);
+    overflow: hidden;
+}
+
+.obtained-marks{
+    margin-top: 0px;
+   color:white;
+   font-weight: 500;
+   font-size: 20px;
+    position: absolute;
+    right:20px;
+}
+.max-marks{
+    color:white;
+   font-weight: 500;
+   font-size: 20px;
+    position: absolute;
+    top:45px;
+    right:20px;
+}
+
+.start-button{
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom:10rem;
+left:1rem;
+
+}
+
+.start-button button{
+    padding:60px 80px;
+    border-radius: 12px;
+    background-color: rgb(255, 81, 0);
+    color:black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.start-button button:hover{
+    background-color:rgb(185, 29, 29);
+    color:white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.question-container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:10rem;
+    left:16rem;
+    height:66vh;
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+.questions{
+    position: absolute;
+    top:0.8rem;
+    width: 60vw;
+    height:11rem;
+    color:white;
+    background-color: rgb(240 94 35);
+    font-size: 2.7rem;
+    border-radius:12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questions p{
+    position: relative;
+    bottom:1.2rem;
+    left:2rem;
+
+}
+.answer-container{
+    position: relative;
+    top:5rem;
+    width: 60vw;
+    color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.answer {
+    
+    display: inline-block;
+    padding: 20px 20px;
+    width: 29.6vw;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color:black;
+    border-radius:12px;
+    outline: none;
+
+}
+
+.answer:hover{
+    background-color: rgba(29, 29, 53, 0.582);
+    color:white;
+}
+
+.next-button {
+    
+    display: inline-block;
+    position: relative;
+    top:5.4rem;
+}
+
+.next-button button{
+    border-radius: 12px;
+    background-color: rgb(13, 13, 71);
+    color:white;
+    padding:15px 35px;
+    font-size: 2.5rem;
+    outline:none;
+}
+
+.hide{
+    visibility: hidden;
+}
+.success{
+    background-color:green;
+}
+.failure{
+    background-color: red;
+}
+
+.thanks{
+    display: grid;
+    align-items: center;
+    justify-content: center;  
+    grid-template-rows:100% ;
+    position: relative;
+    bottom:44rem; 
+}
+.thanks h1{
+    color:white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.thanks h2{
+    color:white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
